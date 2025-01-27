@@ -8,7 +8,8 @@ const Header = () => {
     const links = <>
         <li><NavLink to={'/'}>Home</NavLink></li>
         <li><NavLink>Statistics</NavLink></li>
-        <li><NavLink>Dashboard</NavLink></li>
+        <li><NavLink to={'/dashboard'}>Dashboard</NavLink></li>
+        <li><NavLink to={'/about'}>About</NavLink></li>
     </>
 
     return (
