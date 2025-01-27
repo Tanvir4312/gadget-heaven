@@ -9,6 +9,10 @@ import {
 import Error from './components/Error/Error';
 import Home from './components/Home/Home';
 import Root from './components/Root/Root';
+import Gadgets from './Gadgets/Gadgets';
+import DetailsGadget from './components/DetailsGadget/DetailsGadget';
+
+
 
 const router = createBrowserRouter([
   {
@@ -18,7 +22,25 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home></Home>
+        element: <Home></Home>,
+        loader: () => fetch('../categories.json'),
+        children: [
+          {
+            path: '/',
+            element: <Gadgets></Gadgets>,
+            loader: () => fetch('../gadgets.json')
+          },
+          {
+            path: '/gadgets/:gadgetsName',
+            element: <Gadgets></Gadgets>,
+            loader: () => fetch('../gadgets.json')
+          },
+        ]
+      },
+      {
+        path: '/detailGadget/:id',
+        element: <DetailsGadget></DetailsGadget>,
+        loader: () => fetch('/gadgets.json')
       }
     ]
   },

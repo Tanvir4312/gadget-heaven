@@ -1,7 +1,9 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 
 const Header = () => {
+    const {pathname} = useLocation()
+   
 
     const links = <>
         <li><NavLink to={'/'}>Home</NavLink></li>
@@ -10,8 +12,8 @@ const Header = () => {
     </>
 
     return (
-        <div className="bg-[#9538E2] mt-3 mx-3 rounded-t-2xl">
-            <div className="navbar max-w-[1200px] mx-auto text-white">
+        <div className={` mt-3 mx-3 rounded-t-2xl ${pathname !== '/' ? 'bg-white text-black' : 'bg-[#9538E2] text-white'}`}>
+            <div className="navbar max-w-[1200px] mx-auto ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -34,7 +36,7 @@ const Header = () => {
                             {links}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Gadget Heaven</a>
+                    <a className="btn btn-ghost md:text-xl -ml-6 md:ml-0 ">Gadget Heaven</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

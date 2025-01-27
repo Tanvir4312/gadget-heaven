@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "category": "All Gadgets"
+    },
+    {
+      "id": 2,
+      "category": "Phones"
+    },
+    {
+      "id": 3,
+      "category": "Laptops"
+    },
+    {
+      "id": 4,
+      "category": "Smart Watches"
+    },
+    {
+      "id": 5,
+      "category": "Power Bank"
+    },
+    {
+      "id": 6,
+      "category": "iPhone"
+    },
+    {
+      "id": 7,
+      "category": "Charger"
+    },
+    {
+      "id": 8,
+      "category": "Accessories"
+    }
+  ]
+  

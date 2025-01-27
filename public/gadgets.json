@@ -1,0 +1,275 @@
+[
+    {
+      "product_id": 201,
+      "product_title": "Samsung Galaxy S23",
+      "product_image": "https://i.ibb.co.com/0BKY3Cy/download.jpg",
+      "category": "Phones",
+      "price": 799.99,
+      "description": "Experience the best performance with the latest Samsung Galaxy S23.",
+      "Specification": [
+        "6.1-inch AMOLED display",
+        "Snapdragon 8 Gen 2 processor",
+        "Triple camera setup",
+        "5000mAh battery"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 202,
+      "product_title": "iPhone 14 Pro Max",
+      "product_image": "https://i.ibb.co.com/BgdZsxH/download-1.jpg",
+      "category": "Phones",
+      "price": 1199.99,
+      "description": "The ultimate iPhone experience with Pro features.",
+      "Specification": [
+        "6.7-inch Super Retina XDR display",
+        "A16 Bionic chip",
+        "48MP main camera",
+        "Dynamic Island feature"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 203,
+      "product_title": "Google Pixel 7",
+      "product_image": "https://i.ibb.co.com/DKMFvrB/download-2.jpg",
+      "category": "Phones",
+      "price": 599.99,
+      "description": "Pixel 7 - The smarter phone with excellent camera capabilities.",
+      "Specification": [
+        "6.3-inch OLED display",
+        "Google Tensor G2 processor",
+        "50MP dual camera",
+        "4410mAh battery"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 204,
+      "product_title": "OnePlus 11",
+      "product_image": "https://i.ibb.co.com/kK8MGNM/download-3.jpg",
+      "category": "Phones",
+      "price": 699.99,
+      "description": "Fast and smooth performance with OnePlus 11.",
+      "Specification": [
+        "6.7-inch Fluid AMOLED display",
+        "Snapdragon 8 Gen 2",
+        "Triple rear camera system",
+        "100W fast charging"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 205,
+      "product_title": "Xiaomi 13 Pro",
+      "product_image": "https://i.ibb.co.com/vjjcD62/download-4.jpg",
+      "category": "Phones",
+      "price": 749.99,
+      "description": "Xiaomi 13 Pro with Leica camera technology.",
+      "Specification": [
+        "6.73-inch AMOLED display",
+        "Snapdragon 8 Gen 2",
+        "120W wired charging",
+        "50MP Leica optics"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 206,
+      "product_title": "Motorola Edge 40",
+      "product_image": "https://i.ibb.co.com/VNcWp8r/download-5.jpg",
+      "category": "Phones",
+      "price": 499.99,
+      "description": "Sleek and stylish Motorola Edge 40 with top-notch performance.",
+      "Specification": [
+        "6.55-inch OLED display",
+        "Dimensity 8020 processor",
+        "50MP primary camera",
+        "68W fast charging"
+      ],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": 301,
+      "product_title": "MacBook Air M2",
+      "product_image": "https://i.ibb.co.com/H4ghpYD/download-6.jpg",
+      "category": "Laptops",
+      "price": 1249.99,
+      "description": "Lightweight yet powerful MacBook Air with M2 chip.",
+      "Specification": [
+        "13.6-inch Liquid Retina display",
+        "Apple M2 chip",
+        "18-hour battery life",
+        "256GB SSD"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 302,
+      "product_title": "Dell XPS 13 Plus",
+      "product_image": "https://i.ibb.co.com/82wvhFM/download-7.jpg",
+      "category": "Laptops",
+      "price": 1399.99,
+      "description": "Compact and powerful laptop for professionals.",
+      "Specification": [
+        "13.4-inch InfinityEdge display",
+        "Intel Core i7 13th Gen",
+        "512GB SSD",
+        "16GB RAM"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 303,
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.ibb.co.com/zmbp0Bz/download-8.jpg",
+      "category": "Laptops",
+      "price": 1299.99,
+      "description": "Versatile 2-in-1 laptop with cutting-edge performance.",
+      "Specification": [
+        "13.5-inch OLED touchscreen",
+        "Intel Core i7",
+        "16GB RAM",
+        "1TB SSD"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 401,
+      "product_title": "Apple Watch Series 9",
+      "product_image": "https://i.ibb.co.com/5L1mv3B/download-9.jpg",
+      "category": "Smart Watches",
+      "price": 399.99,
+      "description": "Apple Watch Series 9 with advanced health features.",
+      "Specification": [
+        "Always-On Retina display",
+        "Blood oxygen sensor",
+        "Heart rate monitor",
+        "Water-resistant up to 50m"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 402,
+      "product_title": "Samsung Galaxy Watch 6",
+      "product_image": "https://i.ibb.co.com/LY9nVB6/download-10.jpg",
+      "category": "Smart Watches",
+      "price": 349.99,
+      "description": "Smartwatch designed for fitness and lifestyle.",
+      "Specification": [
+        "Super AMOLED display",
+        "ECG monitor",
+        "Sleep tracking",
+        "5-day battery life"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 501,
+      "product_title": "Anker PowerCore 26800mAh",
+      "product_image": "https://i.ibb.co.com/XV7CX2P/download-11.jpg",
+      "category": "Power Bank",
+      "price": 59.99,
+      "description": "High-capacity power bank to charge multiple devices on the go.",
+      "Specification": [
+        "26800mAh capacity",
+        "Dual USB output",
+        "Fast charging",
+        "Compact design"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 502,
+      "product_title": "Xiaomi Mi Power Bank 3",
+      "product_image": "https://i.ibb.co.com/4ZM0R7P/download-12.jpg",
+      "category": "Power Bank",
+      "price": 60.99,
+      "description": "Reliable and fast-charging power bank for daily use.",
+      "Specification": [
+        "20000mAh capacity",
+        "USB-C and micro USB input",
+        "Quick charge support",
+        "Slim design"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 601,
+      "product_title": "Apple iPhone 15 Pro",
+      "product_image": "https://i.ibb.co.com/HzXfWyW/download-13.jpg",
+      "category": "iPhone",
+      "price": 1299.99,
+      "description": "Next-gen iPhone with groundbreaking features and performance.",
+      "Specification": [
+        "6.7-inch Super Retina XDR display",
+        "A17 Pro chip",
+        "Titanium design",
+        "USB-C port"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 602,
+      "product_title": "iPhone SE (3rd Gen)",
+      "product_image": "https://i.ibb.co.com/9sZCv9C/download-14.jpg",
+      "category": "iPhone",
+      "price": 429.99,
+      "description": "Compact and affordable iPhone with powerful performance.",
+      "Specification": [
+        "4.7-inch Retina HD display",
+        "A15 Bionic chip",
+        "12MP rear camera",
+        "5G compatibility"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 701,
+      "product_title": "Anker Nano Charger",
+      "product_image": "https://i.ibb.co.com/XFz0cx3/download-15.jpg",
+      "category": "Charger",
+      "price": 52,
+      "description": "Compact and fast charger for all devices.",
+      "Specification": [
+        "20W power output",
+        "USB-C support",
+        "Compact design",
+        "Overcharge protection"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 702,
+      "product_title": "Belkin 3-in-1 Charger",
+      "product_image": "https://i.ibb.co.com/VjQYQ3r/download-16.jpg ",
+      "category": "Charger",
+      "price": 79.99,
+      "description": "Charge your phone, smartwatch, and earbuds simultaneously.",
+      "Specification": [
+        "Wireless charging",
+        "Fast charging support",
+        "Sleek design",
+        "Multi-device compatibility"
+      ],
+      "availability": true,
+      "rating": 4.7
+    }
+  ]
+  
