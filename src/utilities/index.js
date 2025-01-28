@@ -17,13 +17,13 @@ const addToAddCard = id => {
 
 
     if (card.includes(id)) {
-        return toast.error('Already Add')
+        return toast.error('Already Add this item')
     }
     else {
         card.push(id)
         const cardStr = JSON.stringify(card)
         localStorage.setItem('card', cardStr)
-        toast.success('Successfully Add')
+        toast.success('Successfully Add to Add Card')
     }
 
 }
@@ -44,13 +44,13 @@ const addToWishlist = id => {
     const wishlistCard = getStoredWishlist();
 
     if (wishlistCard.includes(id)) {
-        return toast.error('Already Add')
+        return toast.error('You have already added to wishlist this item')
     }
     else {
         wishlistCard.push(id);
         const WishlistStr = JSON.stringify(wishlistCard);
         localStorage.setItem('wish-cards', WishlistStr)
-        toast.success('Successfully Add')
+        toast.success('Successfully Add to Wishlist')
     }
 }
 

@@ -2,12 +2,15 @@ import { useLoaderData, useParams } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
 import Heading from "../Heading/Heading";
 import { addToAddCard, addToWishlist } from "../../utilities";
+import { useState } from "react";
 
 
 
 const DetailsGadget = () => {
-    const gadgets = useLoaderData()
-    const { id } = useParams()
+    const gadgets = useLoaderData();
+    const { id } = useParams();
+    const [wishlistBtnDisabled, setWishlistBtnDisabled] = useState(false)
+
 
     const product = gadgets.find(gadget => gadget.product_id === parseInt(id));
 
@@ -19,6 +22,7 @@ const DetailsGadget = () => {
 
     const handleWishlistCard = id =>{
         addToWishlist(id)
+        setWishlistBtnDisabled(true)
     }
 
 
@@ -63,12 +67,12 @@ const DetailsGadget = () => {
 
                         <div className="flex">
 
-                            <div className="mb-3 flex items-center gap-2 btn btn-outline rounded-full w-40">
-                                <button onClick={() => handleAddToCard(product_id)} className="cursor-pointer">Add To Card</button>
+                            <div onClick={() => handleAddToCard(product_id)} className="mb-3 flex items-center gap-2 btn btn-outline rounded-full w-40">
+                                <button className="cursor-pointer">Add To Card</button>
                                 <img src="https://img.icons8.com/?size=24&id=zhda2EVBCvHY&format=png" alt="" />
                             </div>
 
-                            <button onClick={()=> handleWishlistCard(product_id)} className="btn px-3 rounded-full mb-3 ml-3 cursor-pointer bg-slate-200">
+                            <button disabled = {wishlistBtnDisabled} onClick={()=> handleWishlistCard(product_id)} className="btn px-3 rounded-full mb-3 ml-3 cursor-pointer border border-[#9538E2] bg-[#9538E2]/50">
                                 <img className="h-6 w-7 mt-2" src="https://img.icons8.com/?size=24&id=85038&format=png" alt="" />
                             </button>
                         </div>

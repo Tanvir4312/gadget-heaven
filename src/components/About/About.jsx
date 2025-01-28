@@ -1,7 +1,13 @@
+import { useEffect } from "react";
 import Heading from "../Heading/Heading";
 
 
 const About = () => {
+
+    useEffect(() => {
+            document.title = "About | Gadget Heaven";
+          }, []);
+
     return (
         <div>
             <div className="text-center bg-[#9538E2] text-white pt-16 pb-36 p-5">

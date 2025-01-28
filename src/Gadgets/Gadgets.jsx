@@ -3,7 +3,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import Gadget from "../Gadget/Gadget";
 
 
-// eslint-disable-next-line react/prop-types
+
 const Gadgets = () => {
 
     const { gadgetsName } = useParams();
@@ -24,20 +24,25 @@ const Gadgets = () => {
         if (gadgetsName === 'All Gadgets') {
             setGadgets(products)
         }
-
-
-
-
-
+        if (gadgetsName === 'Accessories') {
+            setGadgets([])
+        }
     }, [gadgetsName, products])
+   
     return (
         <div className="lg:col-span-4 md:col-span-3 grid lg:grid-cols-3 gap-5 md:grid-cols-2">
             {
-                gadgets.map((gadget, idx) => <Gadget
+                gadgets.length > 0 ?
+                    gadgets.map((gadget, idx) => <Gadget
 
-                    gadget={gadget}
-                    key={idx}
-                ></Gadget>)
+                        gadget={gadget}
+                        key={idx}
+                    ></Gadget>) : <Gadget>
+                        
+                        <h1 className="text-4xl text-red-500 font-bold">Oops!!!</h1>
+                        <h3 className="text-3xl font-bold pt-5">No Data Found</h3>
+                        
+                    </Gadget>
 
             }
 
