@@ -9,6 +9,7 @@ const Error = () => {
    
     return (
         <div>
+            
             <h1 className="md:text-6xl text-3xl font-bold text-center mt-36">Oops!!!</h1>
             <p className="text-2xl font-semibold mt-10 text-center">Status: {error.status}</p>
 
