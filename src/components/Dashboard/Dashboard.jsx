@@ -122,7 +122,7 @@ const Dashboard = () => {
                             <div className="md:flex justify-between items-center md:pr-32 pr-10 pt-10">
                                 <p className="md:text-xl md:font-medium md:pl-32 pl-10 md:pt-0 text-2xl font-bold text-center pb-4 md:pb-0">Cart</p>
                                 <div className="flex items-center justify-center md:gap-6 gap-2">
-                                    <p className="text-2xl font-bold hidden lg:block">Total Cost: {sum}</p>
+                                    <p className="text-2xl font-bold hidden lg:block">Total Cost: {sum.toFixed(2)}</p>
                                     <div className="flex btn btn-outline border border-[#9538E2] rounded-full md:w-[180px]">
                                         <button className="cursor-pointer" onClick={() => handleSortPrice('sort')}>Sort by Price</button>
                                         <img src="https://img.icons8.com/?size=32&id=14338&format=png" alt="" />

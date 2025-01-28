@@ -23,7 +23,7 @@ const addToAddCard = id => {
         card.push(id)
         const cardStr = JSON.stringify(card)
         localStorage.setItem('card', cardStr)
-        toast.success('Successfully Add to Add Card')
+        toast.success('Successfully Add to Card')
     }
 
 }
